@@ -1,0 +1,57 @@
+.Landing__Twelve .Menubar{
+    border: none;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   Order Confram
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.Landing__Twelve .OrderConfirmRight button{
+    background: #FFBF0B;
+    border: none;
+}
+
+
+.Landing__Twelve .OrderConfirmFrom{
+    background-color: #FFEECE;
+    padding-top: 50px;
+}
+
+.Landing__Twelve.ArrowBg p{
+    color: #FFFFFF !important;
+    font-size: 14px;
+    padding-left: 24px !important;
+    font-weight: 400 ;
+}
+
+.Landing__Twelve .ArrowBg {
+    background: #FFBF0B !important;
+}
+ 
+.Landing__Twelve .OrderConfirmLeft .Payment .CustomeInput input + label:before {
+    content: '';
+    background: #FFBF0B ;
+    border-radius: 5px;
+    color:#FFBF0B ;
+}
+
+.Landing__Twelve .OrderConfirmRight button{
+    background: #FFBF0B;
+    border: none;
+    color: #ffffff;
+}
+
+.Landing__Twelve .OrderConfirmLeft .Payment .ArrowBg::after {
+    position: absolute;
+    content: '';
+    top: -15px;
+    left: 20%;
+    width: 30px;
+    height: 15px;
+    border-bottom: solid 15px;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    color:#FFBF0B;
+}

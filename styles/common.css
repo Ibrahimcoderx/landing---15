@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* font-family: 'Noto Sans Bengali', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
+/* font-family: 'Galada', cursive; */
+@import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Montserrat', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Noto Sans', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Raleway', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;900&display=swap");
+
+/* font-family: 'Rubik', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+
+
+
+/* CSS Start */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container ul,
+.container ol {
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.container a {
+  text-decoration: none;
+}
+
+.container a:hover {
+  text-decoration: none;
+}
+
+.container a,
+.container button,
+.container span,
+.container p,
+.container ul,
+.container li,
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0;
+  clear: both;
+  color: #000000;
+  text-align: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+input,
+textarea {
+  border: 0;
+  width: 100%;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  box-shadow: none;
+  outline: unset;
+}
+
+/* .container {
+    padding: 0 150px;
+    max-width: 100%;
+} */
+
+.d_flex {
+  display: flex;
+  align-items: center;
+}
+
+.d_justify {
+  justify-content: space-between;
+}
+
+.d_center {
+  justify-content: center;
+}
+
+/* .container{
+    max-width: 100%;
+    padding: 0 200px;
+} */
+
+
+
+/* .Landing__Two .OrderConfirmRight button{
+  background: red;
+  border: none;
+} */

@@ -1,0 +1,56 @@
+.Landing__Eleven .Menubar{
+    border: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   Order Confram
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.Landing__Eleven .OrderConfirmRight button{
+    background: #756BEE;
+    border: none;
+}
+
+
+.Landing__Eleven .OrderConfirmFrom{
+    background-color: #FFF9E7;
+    padding-top: 50px;
+}
+
+.Landing__Eleven.ArrowBg p{
+    color: #FFFFFF !important;
+    font-size: 14px;
+    padding-left: 24px !important;
+    font-weight: 400 ;
+}
+
+.Landing__Eleven .ArrowBg {
+    background: #756BEE !important;
+}
+ 
+.Landing__Eleven .OrderConfirmLeft .Payment .CustomeInput input + label:before {
+    content: '';
+    background: #756BEE ;
+    border-radius: 5px;
+    color:#756BEE ;
+}
+
+.Landing__Eleven .OrderConfirmRight button{
+    background: #756BEE;
+    border: none;
+    color: #ffffff;
+}
+
+.Landing__Eleven .OrderConfirmLeft .Payment .ArrowBg::after {
+    position: absolute;
+    content: '';
+    top: -15px;
+    left: 20%;
+    width: 30px;
+    height: 15px;
+    border-bottom: solid 15px;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    color:#756BEE;
+}

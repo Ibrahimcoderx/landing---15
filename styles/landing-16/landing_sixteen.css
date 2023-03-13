@@ -1,0 +1,119 @@
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   Order Confram
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+.Landing__Sixteen .OrderConfirmRight button{
+    background: #FFCB05;
+    border: none;
+}
+
+
+.Landing__Sixteen .OrderConfirmFrom{
+    background-color: #ffffff;
+    padding-top: 50px;
+}
+
+.Landing__Sixteen.ArrowBg p{
+    color: #FFFFFF !important;
+    font-size: 14px;
+    padding-left: 24px !important;
+    font-weight: 400 ;
+}
+
+.Landing__Sixteen .ArrowBg {
+    background: #FFCB05 !important;
+}
+ 
+.Landing__Sixteen .OrderConfirmLeft .Payment .CustomeInput input + label:before {
+    content: '';
+    background: #FFCB05 ;
+    border-radius: 5px;
+    color:#FFCB05 ;
+}
+
+.Landing__Sixteen .OrderConfirmRight button{
+    background: #FFCB05;
+    border: none;
+    color: #ffffff;
+}
+
+.Landing__Sixteen .OrderConfirmLeft .Payment .ArrowBg::after {
+    position: absolute;
+    content: '';
+    top: -15px;
+    left: 20%;
+    width: 30px;
+    height: 15px;
+    border-bottom: solid 15px;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    color:#FFCB05;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------
+   Swiper 
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+.Landing__Sixteen .swiper-button-prev {
+    left: 10px;
+    right: auto;
+    padding: 10px 20px !important;
+    background: #FFCB05;
+    border-radius: 50px;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.Landing__Sixteen .swiper-button-next {
+    right: 10px;
+    left: auto;
+    padding: 10px 20px !important;
+    background: #FFCB05;
+    border-radius: 50px;
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.Landing__Sixteen .swiper-button-next:after{
+    font-size: 14px !important;
+    color: #42210B;
+}
+
+.Landing__Sixteen .swiper-button-prev:after {
+    font-size: 14px !important;
+    color: #42210B;
+}
+
+
+.Landing__Sixteen .swiper-button-prev {
+    left: 5px !important;
+    left: auto;
+}
+
+.Landing__Sixteen .swiper-button-next {
+    right: 5px !important;
+    right: auto;
+}
+
+
+
+
+@media (max-width: 992px){
+
+     .swiper-button-next {
+        display: none !important;
+    }
+
+    .swiper-button-prev {
+        display: none !important;
+    }
+
+
+}
+
+
